@@ -1,5 +1,6 @@
 *{
     user-select: none;
+    transform: scale(0.9);
 }
 body {
     display: flex;
@@ -26,6 +27,7 @@ body {
     transition: margin-top 0.1s ease-in-out;
     transition: background-color 0.3s, color 0.3s;
     border-radius: 7px;
+    transform: scale(1);
 }
 
 .keyb {
@@ -41,6 +43,7 @@ body {
     border-bottom-right-radius: 7px;
     transition: margin-top 0.1s ease-in-out;
     transition: background-color 0.3s, color 0.3s;
+    transform: scale(1);
 }
 .key:active{
     width: 50px;
@@ -54,6 +57,7 @@ body {
     transition: background-color 0.1s, color 0.3s;
     transition: margin-top 0.3s ease-in-out;
     transform: translateY(5px);
+    transform: scale(1);
 }
 .keyb:active {
     width: 30px;
@@ -67,7 +71,9 @@ body {
     transition: margin-top 0.3s ease-in-out;
     transition: background-color 0.1s, color 0.3s;
     transform: translateY(5px);
+    transform: scale(1);
 }
 .key:hover{
     filter: brightness(1.2);
+    transform: scale(1);
 }
